@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+  .container {
+    width: 384px;
+  }
+}
+
+body{
+    background-color: hsl(0, 0%, 12%);
+    color:hsl(0, 0%, 100%);
+    text-align:center;
+}
+.container{
+    margin : 50px auto;
+    background-color: hsl(0, 0%, 8%);
+    padding:20px;
+    width:400px;
+}
+.main-card{
+    margin:100px 20px;
+    background-color: hsl(0, 0%, 12%);
+    padding:20px;
+    border-radius:20px;
+}
+img{
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.cards{
+    height:40px;
+    text-align:center;
+    width:auto;
+    margin:10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius:10px;
+    padding:5px;
+}
+.location{
+    color:hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+p{
+    font-size: 14px;
+}
+h1{
+    font-weight: 700;
+}
+.bio{
+    font-weight: 400;
+}
+.cards:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:black;
+}
