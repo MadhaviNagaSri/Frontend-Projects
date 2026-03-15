@@ -9,11 +9,10 @@ body {
 }
 .preview-card-container{
     background-color: hsl(0, 0%, 100%);
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    overflow: hidden;
     border-radius: 20px;
     margin:30px;
 
@@ -69,6 +68,9 @@ span{
   .preview-card-container{
     display:flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:250px;
   }
 
   .card-image,
