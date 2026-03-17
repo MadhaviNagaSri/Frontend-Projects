@@ -102,6 +102,9 @@ body{
 .container{
   grid-template-columns: repeat(4,1fr);
   justify-content: center;
+  padding:100px;
+  align-items: stretch;
+
 }
 .quation{
   display: block;
